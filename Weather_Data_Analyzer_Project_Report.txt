@@ -1,0 +1,73 @@
+
+# Arttifai Tech - Data Science Project: Weather Data Analyzer
+
+## AIM:
+To develop a Weather Data Analyzer that processes historical weather data, identifies patterns, and provides graphical insights through visualizations. It helps users understand temperature variations, humidity levels, and rainfall patterns, while incorporating predictive modeling (Linear Regression) to forecast future temperature trends.
+
+---
+
+## KEY FOCUS AREAS:
+
+- **Data Collection & Cleaning**: Gather structured weather datasets, handle missing values, and normalize data.
+- **Exploratory Data Analysis (EDA)**: Perform statistics, relationships, and climate insights.
+- **Graphical Representation**: Use Matplotlib & Seaborn for line charts, bar graphs, scatter plots, and trend predictions.
+- **Predictive Analysis**: Use Linear Regression to predict temperature trends.
+- **User Interaction**: Display results in an easy-to-understand visual format.
+
+---
+
+## OBJECTIVES:
+
+### Data Processing & Preprocessing:
+- ✓ Import & clean real-world CSV datasets with date, temperature, humidity, rainfall.
+- ✓ Handle missing values using mean/mode imputation.
+- ✓ Normalize values to improve ML prediction accuracy.
+- ✓ Convert and extract features like year, month, season for time-series analysis.
+
+### Exploratory Data Analysis (EDA):
+- ✓ Identify climate trends across years.
+- ✓ Perform statistical analysis (mean, median, standard deviation).
+- ✓ Correlation analysis using scatter plots and heatmaps.
+
+### Visualization Objectives:
+- ✓ Line Chart: Show temperature trends over time.
+- ✓ Bar Graph: Compare yearly rainfall.
+- ✓ Scatter Plot: Visualize temperature vs humidity.
+- ✓ Trend Line: Forecast temperature using Linear Regression.
+
+### Predictive Modelling Objectives:
+- ✓ Train Linear Regression model for future predictions.
+- ✓ Evaluate using MSE and RMSE.
+- ✓ Display forecast using trend line graphs.
+
+---
+
+## EXPECTED OUTPUT:
+Upon executing the Python script (VS Code, PyCharm, Jupyter Notebook), it will generate:
+
+- 📈 **Line Chart**: Temperature trend over the years.
+- 📊 **Bar Graph**: Yearly rainfall comparison.
+- 🔘 **Scatter Plot**: Temperature vs humidity.
+- 🔮 **Prediction Graph**: Forecast future temperature using Linear Regression.
+- 📋 **Statistical Summary**: Console output of key climate stats.
+
+---
+
+## SAMPLE VISUAL OUTPUT:
+- Line graph showing temperature variation.
+- Bar graph of rainfall over years.
+- Scatter plot showing temp-humidity correlation.
+- Trendline prediction for future temperatures.
+
+---
+
+## TOOLS & LIBRARIES:
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn)
+- Dataset (CSV format with date, temp, humidity, rainfall)
+
+---
+
+## HOW TO RUN:
+1. Install libraries: `pip install pandas numpy matplotlib seaborn scikit-learn`
+2. Prepare your dataset in CSV format.
+3. Run the script in your IDE.
